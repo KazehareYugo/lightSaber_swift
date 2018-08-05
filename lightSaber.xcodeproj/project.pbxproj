@@ -12,6 +12,8 @@
 		FDF54CCB2116D0A900C4441B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF54CC92116D0A900C4441B /* Main.storyboard */; };
 		FDF54CCD2116D0AC00C4441B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF54CCC2116D0AC00C4441B /* Assets.xcassets */; };
 		FDF54CD02116D0AC00C4441B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF54CCE2116D0AC00C4441B /* LaunchScreen.storyboard */; };
+		FDF54CD92116D41300C4441B /* light_saber1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF54CD72116D41300C4441B /* light_saber1.mp3 */; };
+		FDF54CDA2116D41300C4441B /* light_saber3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF54CD82116D41300C4441B /* light_saber3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FDF54CCC2116D0AC00C4441B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF54CCF2116D0AC00C4441B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF54CD12116D0AC00C4441B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF54CD72116D41300C4441B /* light_saber1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_saber1.mp3; path = ../../../Downloads/sound/light_saber1.mp3; sourceTree = "<group>"; };
+		FDF54CD82116D41300C4441B /* light_saber3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = light_saber3.mp3; path = ../../../Downloads/sound/light_saber3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FDF54CCC2116D0AC00C4441B /* Assets.xcassets */,
 				FDF54CCE2116D0AC00C4441B /* LaunchScreen.storyboard */,
 				FDF54CD12116D0AC00C4441B /* Info.plist */,
+				FDF54CD72116D41300C4441B /* light_saber1.mp3 */,
+				FDF54CD82116D41300C4441B /* light_saber3.mp3 */,
 			);
 			path = lightSaber;
 			sourceTree = "<group>";
@@ -123,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF54CD02116D0AC00C4441B /* LaunchScreen.storyboard in Resources */,
+				FDF54CDA2116D41300C4441B /* light_saber3.mp3 in Resources */,
 				FDF54CCD2116D0AC00C4441B /* Assets.xcassets in Resources */,
 				FDF54CCB2116D0A900C4441B /* Main.storyboard in Resources */,
+				FDF54CD92116D41300C4441B /* light_saber1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6388KW6ZA6;
 				INFOPLIST_FILE = lightSaber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6388KW6ZA6;
 				INFOPLIST_FILE = lightSaber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
